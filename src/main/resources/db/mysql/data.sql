@@ -4,6 +4,10 @@ INSERT IGNORE INTO vets VALUES (3, 'Linda', 'Douglas');
 INSERT IGNORE INTO vets VALUES (4, 'Rafael', 'Ortega');
 INSERT IGNORE INTO vets VALUES (5, 'Henry', 'Stevens');
 INSERT IGNORE INTO vets VALUES (6, 'Sharon', 'Jenkins');
+INSERT IGNORE INTO vets VALUES (7, 'Eric', 'Cartman');
+INSERT IGNORE INTO vets VALUES (8, 'Stan', 'Marsh');
+INSERT IGNORE INTO vets VALUES (9, 'Kyle', 'Broflovski');
+INSERT IGNORE INTO vets VALUES (10, 'Kenny', 'McCormick');
 
 INSERT IGNORE INTO specialties VALUES (1, 'radiology');
 INSERT IGNORE INTO specialties VALUES (2, 'surgery');
@@ -47,7 +51,7 @@ INSERT IGNORE INTO pets VALUES (11, 'Freddy', '2000-03-09', 5, 9);
 INSERT IGNORE INTO pets VALUES (12, 'Lucky', '2000-06-24', 2, 10);
 INSERT IGNORE INTO pets VALUES (13, 'Sly', '2002-06-08', 1, 10);
 
-INSERT IGNORE INTO visits VALUES (1, 7, '2010-03-04', 'rabies shot');
-INSERT IGNORE INTO visits VALUES (2, 8, '2011-03-04', 'rabies shot');
-INSERT IGNORE INTO visits VALUES (3, 8, '2009-06-04', 'neutered');
-INSERT IGNORE INTO visits VALUES (4, 7, '2008-09-04', 'spayed');
+INSERT IGNORE INTO visits VALUES (1, 7, 1, '2010-03-04', 'rabies shot');
+INSERT IGNORE INTO visits VALUES (2, 8, 1, '2011-03-04', 'rabies shot');
+INSERT IGNORE INTO visits VALUES (3, 8, 1, '2009-06-04', 'neutered');
+INSERT IGNORE INTO visits VALUES (4, 7, 1, '2008-09-04', 'spayed');
